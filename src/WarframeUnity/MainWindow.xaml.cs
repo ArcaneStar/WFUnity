@@ -38,23 +38,6 @@ namespace WarframeUnity
             this.Visibility = System.Windows.Visibility.Hidden;
             //NotificationWindow.Show();
             Start();
-<<<<<<< HEAD
-        }
-
-        private void OnAlert()
-        {
-            console.Dispatcher.Invoke(new MethodInvoker(() =>
-                {
-                    console.AppendText("New Alerts!\r\n");
-                    foreach (Alert alert in alerts.List)
-                    {
-                        console.AppendText(alert.Text + "\r\n");
-                    }
-                    alerts.List.Clear();
-                    console.AppendText("\r\n\r\n");
-                }));
-=======
->>>>>>> Latest beta
         }
         #endregion
 
