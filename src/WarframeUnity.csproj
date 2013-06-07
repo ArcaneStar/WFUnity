@@ -34,7 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icon1.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>WarframeUnity.Program</StartupObject>
@@ -195,16 +196,12 @@
     <Resource Include="UI\Images\speaker_highlight.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="UI\Images\icon1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon1.ico">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="UI\Images\closehighlightl.png" />
     <Resource Include="UI\Images\close_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon-old.ico" />
+    <EmbeddedResource Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterResolveReferences">
