@@ -46,6 +46,7 @@ namespace WarframeUnity
         {
             twitter = new Twitter();
             list = new List<Alert>();
+            //sp = new SoundPlayer(Properties.Resources.AlertSound);
             viewList = new ObservableCollection<Alert>();
             lastCheck = DateTime.MinValue;
             refreshInterval = 10;
